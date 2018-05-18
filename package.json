@@ -1,0 +1,15 @@
+{
+  "name": "get-csvs",
+  "version": "0.0.1",
+  "description": "HTTPS GETs multiple CSVs and stacks them up into a single output stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Stein",
+  "license": "Unlicense",
+  "dependencies": {
+    "byline": "5.0.0",
+    "stream-stream": "1.2.6"
+  }
+}
