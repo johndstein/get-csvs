@@ -9,6 +9,8 @@ to work correctly when appending multiple streams together. They both work in
 most cases, but the final stream is corrupted in other cases. So we ended up
 using the bare node https module. So far it hasn't failed.
 
+We have tested this with 50 URLs containing millions of lines total.
+
 We assume each CSV stream starts with a header row, and we remove all but the
 first header row from the final output stream. This behavior can be overridden.
 
